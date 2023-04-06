@@ -2,21 +2,21 @@
 
 CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, aisle INTEGER, popularity INTEGER);
 
-INSERT INTO store VALUES (1, "banana", 1, 5, 2000);
-INSERT INTO store VALUES (2, "orange", 1, 5, 2000);
-INSERT INTO store VALUES (3, "oatmeal", 1, 8, 1990);
-INSERT INTO store VALUES (4, "cereal", 3, 8,2021);
-INSERT INTO store VALUES (5, "ice cream", 5, 14, 2022);
-INSERT INTO store VALUES (6, "apples", 1, 5, 2087);
-INSERT INTO store VALUES (7,"limes", 1, 5, 2987);
-INSERT INTO store VALUES (8,"limes" ,1, 5, 7678);
-INSERT INTO store VALUES (9,"limes" ,1, 5, 8789);
-INSERT INTO store VALUES (10,"limes" ,1, 5, 7908);
-INSERT INTO store VALUES (11,"limes" ,1, 5, 6897);
-INSERT INTO store VALUES (12,"limes" ,1, 5, 7678);
-INSERT INTO store VALUES (13,"limes" ,1, 5, 1980);
-INSERT INTO store VALUES (14,"limes" ,1, 5, 1987);
-INSERT INTO store VALUES (15,"limes" ,1, 5, 1987);
+INSERT INTO store VALUES (1, "banana", .29, 5, 3);
+INSERT INTO store VALUES (2, "orange", .75, 5, 8);
+INSERT INTO store VALUES (3, "oatmeal", 6.99, 8, 14);
+INSERT INTO store VALUES (4, "cereal", 4.99, 8,2);
+INSERT INTO store VALUES (5, "ice cream", 4.99, 14, 1);
+INSERT INTO store VALUES (6, "apples", 1.00, 5, 5);
+INSERT INTO store VALUES (7,"limes", .50, 5, 6);
+INSERT INTO store VALUES (8,"lemons", .79, 5, 7);
+INSERT INTO store VALUES (9,"orange juice" , 3.69, 9, 11);
+INSERT INTO store VALUES (10,"lettuce" , 1.99, 5, 13);
+INSERT INTO store VALUES (11,"pineapple" , 3.50, 5, 4);
+INSERT INTO store VALUES (12,"grapes" , 5.98, 5, 8);
+INSERT INTO store VALUES (13,"cilantro" , 1.49, 5, 9);
+INSERT INTO store VALUES (14,"ginger" , .68, 5, 10);
+INSERT INTO store VALUES (15,"tomato" , .30, 5, 12);
 
 
 --display the database ordered by price. 
